@@ -146,7 +146,7 @@ Possible filters are:
 
 ```javascript
 //  Instance of a filter coefficient calculator
-var firCalculator = new Fili.firCoeffs();
+var firCalculator = new Fili.FirCoeffs();
 
 // calculate filter coefficients
 var firFilterCoeffs = firCalculator.lowpass({
